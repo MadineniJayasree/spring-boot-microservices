@@ -25,4 +25,4 @@ on:
             distribution: 'temurin'
             cache: 'maven'
         - name: Build with Maven
-          run: ./mnw -ntp verify
+          run: ./mvnw -ntp verify

@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87134a03-a58a-499b-b6d9-c8c8c4d9a04e" name="Changes" comment="Spotless dependency added">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/Dcokerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStoreProject/catalog_service/TestCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStoreProject/catalog_service/TestCatalogServiceApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
