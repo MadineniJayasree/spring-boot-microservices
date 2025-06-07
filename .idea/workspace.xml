@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87134a03-a58a-499b-b6d9-c8c8c4d9a04e" name="Changes" comment="Added the Spring MVC">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="87134a03-a58a-499b-b6d9-c8c8c4d9a04e" name="Changes" comment="&quot;Changes in github configurations&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1749293542029</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="&quot;Changes in github configurations&quot;">
+      <created>1749301298800</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1749301298800</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,10 +324,16 @@
     <MESSAGE value="Canges in maven - github workflow" />
     <MESSAGE value="Changes in maven - github workflow" />
     <MESSAGE value="Added the Spring MVC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the Spring MVC" />
+    <MESSAGE value="&quot;Changes in github configurations&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Changes in github configurations&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_boot_microservices$com_BookStore_catalog_web_CatalogServiceApplication.ic" NAME="com.BookStore.catalog.web.CatalogServiceApplication Coverage Results" MODIFIED="1749301185583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.BookStore.catalog.web.*</FILTER>
+    </SUITE>
   </component>
 </project>
