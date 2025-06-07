@@ -7,7 +7,6 @@ import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 @SpringBootApplication
 // @EnableConfigurationProperties(ApplicationProperties.class)
 @ConfigurationPropertiesScan
-
 public class CatalogServiceApplication {
 
     public static void main(String[] args) {
