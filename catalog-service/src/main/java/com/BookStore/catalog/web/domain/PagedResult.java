@@ -1,4 +1,4 @@
-package com.BookStoreProject.catalog_service.domain;
+package com.BookStore.catalog.web.domain;
 
 import java.util.List;
 

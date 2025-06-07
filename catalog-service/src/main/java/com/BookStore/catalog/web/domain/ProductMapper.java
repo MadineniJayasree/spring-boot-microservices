@@ -1,4 +1,4 @@
-package com.BookStoreProject.catalog_service.domain;
+package com.BookStore.catalog.web.domain;
 
 class ProductMapper {
     static Product toProduct(ProductEntity productEntity) {

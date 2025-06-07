@@ -1,6 +1,7 @@
-package com.BookStoreProject.catalog_service.domain;
+package com.BookStore.catalog.web.domain;
 
-import com.BookStoreProject.catalog_service.ApplicationProperties;
+import com.BookStore.catalog.web.ApplicationProperties;
+import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -33,5 +34,9 @@ public class ProductService {
                 productsPage.isLast(),
                 productsPage.hasNext(),
                 productsPage.hasPrevious());
+    }
+
+    public Optional<Product> getProductsByCode(String code) {
+        return productRepository.findByCode(code).map(ProductMapper::toProduct);
     }
 }

@@ -1,4 +1,4 @@
-package com.BookStoreProject.catalog_service;
+package com.BookStore.catalog.web;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
