@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/products")
-class ProductController{
+class ProductController {
     @Autowired
     private final ProductService productService;
 
@@ -20,7 +20,7 @@ class ProductController{
     }
 
     @GetMapping
-    PagedResult<Product> getProducts(@RequestParam(name="page",defaultValue="1") int pageNo){
+    PagedResult<Product> getProducts(@RequestParam(name = "page", defaultValue = "1") int pageNo) {
         return productService.getProducts(pageNo);
     }
 }
