@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87134a03-a58a-499b-b6d9-c8c8c4d9a04e" name="Changes" comment="Added the Spring MVC">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/domain/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/AbstractIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/controllers/ProductControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/domain/ProductRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/resources/test-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStoreProject/catalog_service/ApplicationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/ApplicationProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStoreProject/catalog_service/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/CatalogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStoreProject/catalog_service/domain/PagedResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/domain/PagedResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStoreProject/catalog_service/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStoreProject/catalog_service/domain/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/domain/ProductEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStoreProject/catalog_service/domain/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/domain/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStoreProject/catalog_service/domain/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/domain/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStoreProject/catalog_service/domain/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/domain/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStoreProject/catalog_service/web/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/web/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStoreProject/catalog_service/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/CatalogServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStoreProject/catalog_service/ContainersConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/ContainersConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStoreProject/catalog_service/TestCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/TestCatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
