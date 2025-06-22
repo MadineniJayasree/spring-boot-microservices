@@ -1,15 +1,14 @@
 version: "3.8"
-name: 'bookstore-spring-boot-microservices'
+
 services:
   catalog-db:
-    image: mysql:8.0.38          # Specify the MySQL image and version
+    image: mysql:8.0.38
     container_name: catalog-db
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:mysql://catalog-db:3306/testdb
-      - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=root
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=testdb
     ports:
-      - "3306:3306"                      # Map MySQL port
+      - "3307:3306"
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       interval: 10s

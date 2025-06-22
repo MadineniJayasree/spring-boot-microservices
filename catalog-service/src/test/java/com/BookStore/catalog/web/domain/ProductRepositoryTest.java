@@ -2,6 +2,7 @@ package com.BookStore.catalog.web.domain;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import java.math.BigDecimal;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,5 +21,19 @@ public class ProductRepositoryTest {
     void shouldGetAllProducts() {
         List<ProductEntity> products = productRepository.findAll();
         assertThat(products).hasSize(20);
+    }
+
+    @Test
+    void shouldGetProductByCode() {
+        ProductEntity product = productRepository.findByCode("B003").orElseThrow();
+        assertThat(product.getCode()).isEqualTo("B003");
+        assertThat(product.getName()).isEqualTo("The Great Gatsby");
+        assertThat(product.getDescription()).isEqualTo("Novel by F. Scott Fitzgerald");
+        assertThat(product.getPrice()).isEqualTo(new BigDecimal("9.99"));
+    }
+
+    @Test
+    void shouldReturnEmptyWhenProductCodeNotExists() {
+        assertThat(productRepository.findByCode("invalid_product_code")).isEmpty();
     }
 }

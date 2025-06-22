@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87134a03-a58a-499b-b6d9-c8c8c4d9a04e" name="Changes" comment="&quot;Changes in github configurations&quot;">
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/web/controllers/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/docker-compose/apps.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskFile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TaskFile.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/domain/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/domain/ProductNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/controllers/ProductControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/controllers/ProductControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/domain/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/domain/ProductRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +79,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,7 +87,7 @@
       <recent name="C:\Users\madin\Downloads\Spring-Microservices\spring-boot-microservices" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.BookStore.catalog.web.CatalogServiceApplication">
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest">
     <configuration name="CatalogServiceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.BookStoreProject.catalog_service.CatalogServiceApplication" />
       <module name="catalog-service" />
@@ -165,9 +176,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.BookStore.catalog.web.CatalogServiceApplication" />
         <item itemvalue="JUnit.ProductRepositoryTest" />
         <item itemvalue="JUnit.ProductControllerTest (1)" />
+        <item itemvalue="Application.com.BookStore.catalog.web.CatalogServiceApplication" />
         <item itemvalue="JUnit.ProductControllerTest" />
         <item itemvalue="JUnit.CatalogServiceApplicationTests (1)" />
       </list>
@@ -315,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1749303211849</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="&quot;Changes in github configurations&quot;">
+      <created>1749310573150</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1749310573150</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
