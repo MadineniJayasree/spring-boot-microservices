@@ -37,7 +37,7 @@ public class ProductControllerTest extends AbstractIT {
 
         Product product = given().contentType(ContentType.JSON)
                 .when()
-                .get("/api/products/{code}", "B001")
+                .get("/api/products/{code}", "B004")
                 .then()
                 .statusCode(200)
                 .assertThat()

@@ -11,9 +11,10 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/products")
 class ProductController {
-    @Autowired
+
     private final ProductService productService;
 
+    @Autowired
     ProductController(ProductService productService) {
         this.productService = productService;
     }
@@ -24,7 +25,7 @@ class ProductController {
     }
 
     @GetMapping("/{code}")
-    ResponseEntity<Product> ProductByCode(@PathVariable String code) {
+    ResponseEntity<Product> ProductByCode(@PathVariable("code") String code) {
         return productService
                 .getProductsByCode(code)
                 .map(ResponseEntity::ok)

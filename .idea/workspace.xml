@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87134a03-a58a-499b-b6d9-c8c8c4d9a04e" name="Changes" comment="&quot;Docker Configuration&quot;" />
+    <list default="true" id="87134a03-a58a-499b-b6d9-c8c8c4d9a04e" name="Changes" comment="&quot;Docker Configuration&quot;">
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/domain/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/domain/ProductNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/web/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/BookStore/catalog/web/web/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/AbstractIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/AbstractIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/controllers/ProductControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/BookStore/catalog/web/controllers/ProductControllerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -325,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1750610889422</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="&quot;Docker Configuration&quot;">
+      <created>1750610946788</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1750610946789</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
